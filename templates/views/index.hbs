@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/style.css">
+        
+    </head>
+    <body>
+        {{>header}}
+        {{content}}
+        <form>
+            <input type="text" name="location" id="location" value="" placeholder="Location">
+            <input type="submit" value="Search" name="search">
+        </form>
+        <p id="messageOne"></p>
+        <p id="messageTwo"></p>
+        {{>footer}}
+
+    </body>
+    <script src="./js/app.js"></script>
+</html>
